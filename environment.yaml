@@ -1,0 +1,14 @@
+name: mmdetection3d
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - setuptools=69.5.1
+  - python==3.8.19
+  - pytorch==1.13.1
+  - torchvision==0.14.1
+  - torchaudio==0.13.1
+  - pytorch-cuda=11.7
+  - cudatoolkit=11.7
+  - mkl=2024.0.0
